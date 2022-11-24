@@ -40,3 +40,9 @@
     #binding-cells = <0>;
     bindings = <&kp LALT>, <&kp LSHFT>;
   };
+  macro_winman2: macro_winman2 {
+    compatible = "zmk,behavior-macro";
+    label = "macro_kinesis";
+    #binding-cells = <0>;
+    bindings = <&kp LCTRL>, <&kp LALT>, <&kp LSHFT>;
+  };
