@@ -36,13 +36,13 @@
   };
   macro_winman: macro_winman {
     compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
+    label = "macro_winman";
     #binding-cells = <0>;
     bindings = <&kp LALT>, <&kp LSHFT>;
   };
   macro_winman2: macro_winman2 {
     compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
+    label = "macro_winman2";
     #binding-cells = <0>;
     bindings = <&kp LCTRL>, <&kp LALT>, <&kp LSHFT>;
   };
